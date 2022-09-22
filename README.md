@@ -6,6 +6,11 @@
 >#conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 -c pytorch -c hcc
 >![image](https://user-images.githubusercontent.com/17904598/191643849-7f4c9157-e6ab-463c-9e3e-b690df36c000.png)
 
+https://www.anycodings.com/questions/nvcc-missing-when-installing-cudatoolkit
+
+
+![image](https://user-images.githubusercontent.com/17904598/191644162-87618717-04a7-4276-9062-49ecba2c16c4.png)
+
 
 
 This repository is an implementation of the searchsorted function to work for pytorch CUDA Tensors. Initially derived from the great [C extension tutorial](https://github.com/chrischoy/pytorch-custom-cuda-tutorial), but totally changed since then because building C extensions is not available anymore on pytorch 1.0.
