@@ -1,5 +1,13 @@
 # Pytorch Custom CUDA kernel for searchsorted
 
+
+>zzz
+>#conda 直接安装的cudatoolkit卸载掉，用此处安装的才不会出错。
+>#conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 -c pytorch -c hcc
+>![image](https://user-images.githubusercontent.com/17904598/191643849-7f4c9157-e6ab-463c-9e3e-b690df36c000.png)
+
+
+
 This repository is an implementation of the searchsorted function to work for pytorch CUDA Tensors. Initially derived from the great [C extension tutorial](https://github.com/chrischoy/pytorch-custom-cuda-tutorial), but totally changed since then because building C extensions is not available anymore on pytorch 1.0.
 
 
@@ -27,6 +35,7 @@ the output is of size as `(nrows, ncols_v)`. If all input tensors are on GPU, a 
 
 
 ## Installation
+
 
 Just `pip install .`, in the root folder of this repo. This will compile
 and install the torchsearchsorted module.
